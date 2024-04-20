@@ -1,7 +1,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:myapp/CartPage.dart';
+import 'package:myapp/Pages/CartPage.dart';
 
 class AppBarWidget1 extends StatelessWidget{
   @override

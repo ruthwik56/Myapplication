@@ -1,12 +1,12 @@
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:myapp/BeveragesPage.dart';
-import 'package:myapp/BiryaniPage.dart';
-import 'package:myapp/CurriesPage.dart';
-import 'package:myapp/DessertPage.dart';
-import 'package:myapp/PizzaPAge.dart';
-import 'package:myapp/RotiPage.dart';
+import 'package:myapp/Pages/BeveragesPage.dart';
+import 'package:myapp/Pages/BiryaniPage.dart';
+import 'package:myapp/Pages/CurriesPage.dart';
+import 'package:myapp/Pages/DessertPage.dart';
+import 'package:myapp/Pages/PizzaPage.dart';
+
+import 'package:myapp/Pages/RotiPage.dart';
 
 class RowScrollWidget extends StatelessWidget{
 

@@ -175,6 +175,7 @@ class _FoodItemBottomSheetState extends State<FoodItemBottomSheet> {
   @override
   Widget build(BuildContext context) {
     return Container(
+      decoration: BoxDecoration(color: Colors.white,borderRadius: BorderRadius.only(topLeft: Radius.circular(50),topRight: Radius.circular(50))),
       padding: EdgeInsets.all(20),
       child: Column(
         mainAxisSize: MainAxisSize.min,
@@ -230,7 +231,7 @@ class _FoodItemBottomSheetState extends State<FoodItemBottomSheet> {
                 style: ButtonStyle(
                 backgroundColor: MaterialStateProperty.all(Color.fromARGB(255, 243, 152, 16)),
                 ), 
-                child: Text("Add to cart"),
+                child: Text("Add to cart",style: TextStyle(color: Colors.white),),
               ),
             ],
           ), 
